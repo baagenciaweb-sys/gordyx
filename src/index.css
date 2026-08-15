@@ -11,6 +11,9 @@ button, input { font: inherit; }
 button { border: 0; cursor: pointer; }
 button:disabled { cursor: not-allowed; opacity: .5; }
 .site-shell { overflow: hidden; background: #e5b96b; }
+.main-hidden { opacity: 0; }
+.main-in { opacity: 1; animation: main-fade-in .45s ease both; }
+@keyframes main-fade-in { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: translateY(0); } }
 .topbar { height: 80px; padding: 14px clamp(20px, 5vw, 76px); display: flex; align-items: center; justify-content: space-between; position: sticky; top: 0; z-index: 20; background: rgba(229,185,107,.92); backdrop-filter: blur(18px); border-bottom: 1px solid rgba(58,47,245,.32); box-shadow: 0 4px 24px rgba(36,14,219,.12); }
 .brand { display: flex; align-items: center; width: 118px; height: 52px; overflow: hidden; }
 .brand img { width: 100%; height: 100%; object-fit: contain; object-position: left center; }

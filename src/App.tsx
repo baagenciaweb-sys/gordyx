@@ -120,7 +120,7 @@ function App() {
         <button className="cart-button" onClick={() => setDrawer(true)} aria-label="Abrir carrito"><ShoppingBag size={20} /><span>{itemCount}</span></button>
       </header>
 
-      <main id="top">
+      <main id="top" className={introDone ? 'main-in' : 'main-hidden'}>
         <section className="hero-section">
           <div className="hero-glow glow-one" /><div className="hero-glow glow-two" />
           <div className="hero-copy">
