@@ -125,7 +125,7 @@ function App() {
           <div className="hero-glow glow-one" /><div className="hero-glow glow-two" />
           <div className="hero-copy">
             <p className="eyebrow"><Zap size={14} fill="currentColor" /> Primer drop · Olavarría</p>
-            <h1 className="hero-logo-title"><img className="hero-foodfor" src="/svg/gordyx-foodfor.svg" alt="" aria-hidden="true" /><img src="/Ilustración_sin_título_(2) copy.png" alt="GORDYX" /></h1>
+            <h1 className="hero-logo-title"><img className="hero-foodfor" src="/svg/gordyx-foodfor.svg" alt="" aria-hidden="true" /><img className="hero-gordyx" src="/gordyx-wordmark-trimmed.png" alt="GORDYX" /></h1>
             <p className="hero-text">Detroit-style pizza, bebidas frías y cero ganas de comer aburrido.</p>
             <div className="hero-actions"><button className="primary-button" onClick={scrollToDrop}>Ver catálogo <ArrowRight size={18} /></button><span className="delivery-note"><Truck size={16} /> Delivery gratis en Olavarría</span></div>
           </div>
